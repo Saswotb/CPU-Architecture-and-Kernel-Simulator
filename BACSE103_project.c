@@ -1,3 +1,7 @@
+//25BCE2927
+//BACSE103 - Computation Structures Project
+//CPU Architecture and Kernel Simulator
+//SASWOT BHATTARAI
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -182,3 +186,4 @@ void exec_list(char **args) {
         printf(" - %s\n", dir->d_name);
     closedir(d);
 }
+
